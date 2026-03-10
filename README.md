@@ -1,2 +1,2 @@
 # 391os_group55_public_repo
-portfolio repository for Luke Smith (https://www.linkedin.com/in/luke-smith-500730377)
+This is a Public Repository to go over my group's implementation of a UNIX inspired operating system. This project was done for ECE 391 at UIUC. Full implementation kept private to respect academic integrity and course policies. Detailed walkthrough, architecture discussion, and code review available by request or during an interview. Feel free to message me on Linkedin (https://www.linkedin.com/in/luke-smith-500730377/)
