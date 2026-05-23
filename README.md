@@ -48,13 +48,11 @@ The kernel enters S-mode (supervisor) after M-mode boot setup and from there own
 | UART (NS8250) | Serial console, interrupt-driven |
 | VirtIO Block (`vioblk`) | Virtual disk, virtqueue-based |
 | VirtIO RNG (`viorng`) | Kernel entropy source |
-| RTC | System time |
 
 ### Filesystem (KTFS)
 - Custom inode-based filesystem on top of the block device
 - 512-byte blocks with direct, indirect, and doubly-indirect block pointers
 - 64-block LRU write-back block cache
-- Operations: open, close, read, write, create, delete, mount, flush
 
 ### System Call Interface
 | Category | Calls |
@@ -66,8 +64,7 @@ The kernel enters S-mode (supervisor) after M-mode boot setup and from there own
 | Misc | `usleep`, `devopen` |
 
 ### Inter-Process Communication
-- Kernel pipe implementation connecting processes through a shared ring buffer
-- `iodup` for descriptor duplication, enabling shell-style I/O redirection
+Kernel pipe implementation connected processes through a shared ring buffer
 
 ---
 
