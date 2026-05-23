@@ -1,6 +1,8 @@
 # ECE 391 OS — Group 55
 
-A general-purpose operating system built from scratch in C, targeting a 64-bit RISC-V virtual machine. The kernel runs in QEMU's `virt` environment and supports real multi-process workloads through a Unix-inspired design. Full implementation kept private to abide by academic integrity guidelines. Detailed walkthrough, architecture discussion, and code review available by request or during an interview. Feel free to message me on Linkedin (https://www.linkedin.com/in/luke-smith-500730377/)
+A general-purpose operating system built from scratch in C, targeting a 64-bit RISC-V virtual machine. The kernel runs in QEMU's `virt` environment and supports real multi-process workloads through a Unix-inspired design. 
+
+Full implementation kept private to abide by academic integrity guidelines. Detailed walkthrough, architecture discussion, and code review available by request or during an interview. Feel free to message me on Linkedin (https://www.linkedin.com/in/luke-smith-500730377/)
 
 ---
 
